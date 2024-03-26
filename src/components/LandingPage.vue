@@ -44,15 +44,6 @@ export default {
         .then(data => {this.dataSets = data;})
         .catch(error => console.log('Error fetching datasets: ', error))
     }
-  },
-  data() {
-    return {
-      dataSets: [
-        { id: 1, value: 'first-dataset', label: '2024-01-01' },
-        { id: 2, value: 'second-dataset', label: '2024-01-15' },
-        { id: 3, value: 'third-dataset', label: '2024-03-01' }
-      ]
-    };
   }
 }
 </script>
